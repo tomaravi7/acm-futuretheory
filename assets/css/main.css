@@ -1,0 +1,90 @@
+*
+{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.navbar-nav>li
+{
+    padding-left: 25px;
+}
+.navbar-nav>li>a
+{
+    color: black !important;
+    font-size: 1.1rem;
+}
+.navbar-nav>li>a:hover
+{
+    color: blue !important;
+    font-size: 1.2rem;
+}
+.navbar-nav>.active>a
+{
+    color: blue !important;
+}
+.dropdown-menu>a:hover
+{
+    color: blue;
+}
+.flx
+{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.head1
+{
+    background-color: rgb(240,240,255);
+    flex: 50%;
+    padding: 10.5rem 8.5rem ;
+}
+.head1>span
+{
+    color: black;
+    font-family: "Pockota";
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 1.1em;
+}
+.featured-image
+{
+    background: url(https://futuretheory.co/wp-content/uploads/Team-Photo-November-2020-crop-v6.png);
+    height: 70vh;
+    background-size: cover !important;
+    background-position: center center !important;
+}
+@media (max-width: 1000px) {
+    .head1
+    {
+      flex: 100%;
+      padding: initial;
+    }
+    .head1>span
+    {
+        font-family: "Pockota";
+        font-size: 45px;
+        font-weight: 800;
+    }
+  }
+.btn-nactive
+{
+    background-color: rgb(240,240,255) !important;
+    color: blue !important;
+}
+.btn-nactive:hover
+{
+    background-color: black !important;
+    color: white !important;
+}
+.btn-new
+{
+    margin: 5px;
+    padding: 20px !important;
+}
+.card-custom
+{
+    margin: 30px;
+    padding: 50px;
+}
+.card-custom>div>div
+{
+    background-color: rgb(240,240,255) !important;
+}
