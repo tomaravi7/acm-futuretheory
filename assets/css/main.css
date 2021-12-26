@@ -6,6 +6,13 @@ body
 {
     overflow-x: hidden;
 }
+@media only screen and (max-width : 1100px)
+{
+    .navbar-collapse
+    {
+        background: white;
+    }
+}
 .navbar-nav>li
 {
     padding-left: 25px;
@@ -19,6 +26,7 @@ body
 {
     color: blue !important;
     font-size: 1.2rem;
+    transition: 150ms;
 }
 .navbar-nav>.active>a
 {
@@ -27,11 +35,13 @@ body
 .dropdown-menu>a:hover
 {
     color: blue;
+    transition: 100ms;
 }
 .flx
 {
     display: flex;
     flex-wrap: wrap-reverse;
+    background-color: rgb(240,240,255);
 }
 .head1
 {
@@ -50,23 +60,17 @@ body
 .featured-image
 {
     background: url(https://futuretheory.co/wp-content/uploads/Team-Photo-November-2020-crop-v6.png);
-    background: url(https://cdn.vox-cdn.com/thumbor/Ndb49Uk3hjiquS041NDD0tPDPAs=/0x169:1423x914/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/7342855/microsoftteams.0.jpg);
+    /* background: url(https://cdn.vox-cdn.com/thumbor/Ndb49Uk3hjiquS041NDD0tPDPAs=/0x169:1423x914/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/7342855/microsoftteams.0.jpg); */
     height: 70vh;
     background-size: cover !important;
     background-position: center center !important;
 }
-@media (max-width: 1000px) {
-    .head1
-    {
-      flex: 100%;
-    }
-    .head1>span
-    {
-        font-family: "Pockota";
-        font-size: 45px;
-        font-weight: 800;
-    }
-  }
+.card-custom
+{
+    margin: 50px 140px 30px 140px;
+
+}
+
 .btn-nactive
 {
     background-color: rgb(240,240,255) !important;
@@ -76,18 +80,146 @@ body
 {
     background-color: black !important;
     color: white !important;
+    transition: 100ms;
 }
 .btn-new
 {
-    margin: 5px;
-    padding: 20px !important;
+    margin: 4px;
+    padding: 18px !important;
 }
-.card-custom
+.card-custom>div>div>div>div>h5
 {
-    margin: 30px;
-    padding: 50px;
+    padding: 10px 5px 5px 0px;
+    font-weight: 600;
+    font-size: 1.8rem;
 }
 .card-custom>div>div
 {
+    padding: 30px;  
+}
+.card-custom>div>div>div
+{
+    padding: 10px;
     background-color: rgb(240,240,255) !important;
+}
+
+.textcent
+{
+    margin: 40px;
+    padding: 30px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+.txtcent
+{
+    text-align: center;
+    font-weight: 300;
+    font-size: 17px;
+}
+@media (max-width: 1100px) {
+    .head1
+    {
+      flex: 100%;
+      padding: 3rem;
+    }
+    .featured-image
+    {
+        max-height: 250px;
+    }
+    .head1>span
+    {
+        font-family: "Pockota";
+        font-size: 45px;
+        font-weight: 800;
+    }
+    .card-custom
+    {
+        margin: 5px;
+        padding: 5px;
+    }
+    .card-custom>div>div
+    {
+        padding-top: 30px;  
+    }
+    .card-custom>div>div>div>div>h5
+    {
+        padding: 0px 0px 5px 0px;
+        font-weight: 600;
+        font-size: 1.6rem;
+    }
+    .textcent
+    {
+        margin: 15px;
+        padding: 5px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 1.4rem;
+    }
+  }
+.cpny
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 200px 20px 250px;
+}
+.cpnycard
+{
+    flex: 20%;
+}
+.cpnyimg
+{
+    max-height: 100px;
+    max-width: 100px;
+}
+.new
+{
+    margin: 120px 0px 0px 0px;
+    background-color: rgb(240,240,255);
+}
+
+.news
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px  140px 0px 140px;
+}
+.news1
+{
+    background-color: rgb(240,240,255);
+    flex: 50%;
+    padding: 2rem 1rem ;
+}
+.news2
+{
+    background-color: rgb(240,240,255);
+    flex: 50%;
+    padding: 2rem 1rem ;
+}
+@media (max-width: 1100px)
+{
+    .news
+    {
+        margin: 1px  14px 0px 14px;
+    }
+}
+
+
+.footer
+{
+    background-color: rgb(0, 0, 24);
+    padding: 40px;
+}
+.foot2
+{
+    margin: 0px 100px 0px 100px;
+    background-color: rgb(0, 0, 24);
+}
+.ack
+{
+    padding: 20px;
+}
+.priv
+{
+    padding: 20px;
 }
