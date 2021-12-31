@@ -206,7 +206,58 @@ body
     flex: 50%;
     padding: 2rem 1rem;
 }
-@media (max-width: 1100px)
+.news12
+{
+    flex: 50%;
+    padding: 2rem 1rem ;
+}
+.news23
+{
+    flex: 50%;
+    padding: 2rem 1rem;
+}
+@media (max-width: 1200px)
+{
+    .news
+    {
+        margin: 20px  50px 0px 50px;
+    }
+    .news1
+    {
+        padding: 1rem 0.5rem ;
+    }
+    .news2
+    {
+        padding: 1rem 0.5rem;
+    }
+    .news12
+    {
+        flex: 100%;
+        padding-bottom: 0px;
+    }
+    .news23
+    {
+        padding-top: 0px;
+    }
+}
+@media (max-width: 1500px)
+{
+    .news234
+    {
+        margin: 20px  50px 0px 50px;
+    }
+    .news12
+    {
+        padding-bottom: 0px;
+        padding: 1rem 0.5rem;
+    }
+    .news23
+    {
+        padding-top: 0px;
+        padding: 1rem 0.5rem;
+    }
+}
+@media (max-width: 800px)
 {
     .news
     {
@@ -283,7 +334,7 @@ body
     }
     .foot2
     {
-        margin: 50px 20px 0px 20px;
+        margin: 50px 20px 30px 20px;
     }
     .lft-foot
     {
@@ -337,10 +388,64 @@ body
 {
     flex: 50%;
 }
+.footimgicon
+{
+    padding: 8px;
+}
 @media (max-width: 1100px)
 {
     .leftfoot1
     {
         flex: 100%;
+        padding-bottom: 30px;
+    }
+}
+.cardimg
+{
+    max-height: 110px;
+    max-width: 200px;
+}
+.cardhead
+{
+    font-size: 0.8rem;
+    margin-bottom: 40px;
+    font-weight: 450;
+    letter-spacing: 0.1rem;
+    color: rgb(77, 77, 93);
+}
+.cardbody
+{
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 600;
+}
+.cardate
+{
+    color: rgb(170, 170, 170);
+}
+.mobilecards
+{
+    display: none;
+}
+@media (max-width: 800px)
+{
+    .hide
+    {
+        display: none;
+    }
+    .mobilecards
+    {
+        display: block;
+    }
+    .cardimg
+    {
+        max-height: 510px;
+        max-width: 700px;
+    }
+    .cardheading
+    {
+        margin-bottom: 40px;
+        font-weight: 600;
+        font-size: 1.8rem;
     }
 }
