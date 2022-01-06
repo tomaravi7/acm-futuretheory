@@ -156,10 +156,10 @@ body
         font-size: 1.4rem;
     }
   }
-  @media (max-width: 720px) {
+  @media (max-width: 800px) {
     .logo-custom
     {
-        max-width: 12rem;
+        max-width: 11rem;
     }
   }
 .cpny
