@@ -156,6 +156,12 @@ body
         font-size: 1.4rem;
     }
   }
+  @media (max-width: 720px) {
+    .logo-custom
+    {
+        max-width: 12rem;
+    }
+  }
 .cpny
 {
     display: flex;
